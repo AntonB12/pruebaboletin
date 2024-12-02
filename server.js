@@ -6,7 +6,7 @@ const cors = require('cors');
 const path = require('path');  // Para las rutas de las vistas
 const fs = require('fs');  // Para manipular archivos
 
-console.log(process.env)
+console.log(process.env);
 
 const app = express();
 const port = process.env.PORT || 5000;
